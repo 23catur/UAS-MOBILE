@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/IV_backgroud"
+        android:layout_width="513dp"
+        android:layout_height="891dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-52dp"
+        android:layout_marginTop="-141dp"
+        android:layout_marginEnd="-51dp"
+        android:layout_marginBottom="-19dp"
+        android:src="@drawable/about" />
+
+    <ImageView
+        android:id="@+id/IV_about_logo"
+        android:layout_width="164dp"
+        android:layout_height="183dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="131dp"
+        android:src="@drawable/logo_room" />
+
+    <TextView
+        android:id="@+id/TV_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IV_about_logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="228dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="Room.in was built to provide convenience in the process of borrowing classes at universities. By cutting out intermediaries, we cut time such as the booking, check-in and logout processes. And  we make it easy for you."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/IV_catur"
+        android:layout_width="111dp"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="457dp"
+        android:layout_marginEnd="96dp"
+        android:src="@drawable/catur" />
+
+    <ImageView
+        android:id="@+id/IV_lilis"
+        android:layout_width="111dp"
+        android:layout_height="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="74dp"
+        android:src="@drawable/lilis" />
+
+    <TextView
+        android:id="@+id/TV_catur"
+        android:layout_width="188dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/IV_catur"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/arbutus"
+        android:text="Catur Wira Syahputra Muchtar"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/TV_lilis"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IV_lilis"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="79dp"
+        android:fontFamily="@font/arbutus"
+        android:text="Lilis Nurfatihah"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/TV_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="17dp"
+        android:text="copyright c 2022 project mobile K4"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:onClick="back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/transparent"
+        android:padding="5dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/backBtn"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Tentang Room.in"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

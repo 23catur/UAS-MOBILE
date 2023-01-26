@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+<ImageView
+        android:id="@+id/IV_ON3"
+        android:layout_width="440dp"
+        android:layout_height="510dp"
+        android:src="@drawable/on3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/IV_tab3"
+        android:layout_width="135dp"
+        android:layout_height="39dp"
+        android:src="@drawable/tab3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <TextView
+        android:layout_width="303dp"
+        android:layout_height="367dp"
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Booking
+        made easy
+        in your hands"
+        android:textColor="#020202"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/IV_tab1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <Button
+        android:id="@+id/BTN_NEXT03"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#DABD58"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Next"
+        android:textSize="60px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/BTN_SKIP03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IV_ON2"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/BTN_SKIP03"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#EFE7CC"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Skip"
+        android:textColor="@color/black"
+        android:textSize="60px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/IV_tab3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IV_ON2"
+        app:layout_constraintVertical_bias="0.838" />
+
+
+
+</android.support.constraint.ConstraintLayout>

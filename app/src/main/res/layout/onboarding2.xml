@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/IV_ON2"
+        android:layout_width="593dp"
+        android:layout_height="568dp"
+        android:src="@drawable/on2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/IV_tab2"
+        android:layout_width="135dp"
+        android:layout_height="39dp"
+        android:src="@drawable/tab2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTN_SKIP02"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/texton"
+        android:layout_width="277dp"
+        android:layout_height="239dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Let’s
+        have the
+        best room with us"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <Button
+        android:id="@+id/BTN_NEXT02"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#DABD58"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Next"
+        android:textSize="60px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texton" />
+
+    <Button
+        android:id="@+id/BTN_SKIP02"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#EFE7CC"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Skip"
+        android:textColor="@color/black"
+        android:textSize="60px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTN_NEXT02" />
+
+
+</android.support.constraint.ConstraintLayout>
